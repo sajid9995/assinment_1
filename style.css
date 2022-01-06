@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    display: flex;
+    
+}
+
+.header-img img{
+    width: 650px;
+}
+
+.header-text{
+    width: 50%;
+    padding-left: 8%;
+    padding-top: 8%;
+}
+
+.header-img{
+    width: 50%;
+    padding-left: 15%; 
+    
+}
+
+.header-text h1{
+    font-size: 60px; 
+    padding-left: 15px;
+    ;
+}
+
+.header-text .spa1{
+    color: rgba(255,74,87,1);    
+}
+
+#header-border{
+    border-left: 5px solid rgba(255,74,87,1);
+    border-start-end-radius: 10%;        
+}
+
+.header-text P{
+    font-size: 25px;
+    color: hsla(0, 0%, 35%, 1);
+}
+
+.header-btn{
+    text-decoration: none;
+    background: rgba(255,74,87,1);
+    color: #fff;
+    padding: 15px 40px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.scroll-text{
+    padding-top: 5%;
+}
+
+.sec2{
+    margin-top: 10%;
+}
+
+.sec2 h1{
+    text-align: center;
+    font-size: 60px;
+}
+
+.spa2{
+    color: rgba(255,74,87,1);
+}
+
+.flexible-container img{
+    width: 200px;
+}
+
+.flexible-container{
+    display: flex;
+}
+
+.box1{
+    width: 400px;
+    height: 500px;    
+}
+.box2{
+    width: 400px;
+    height: 500px;    
+}
+.box3{
+    width: 400px;
+    height: 500px;    
+}
+
+.flexible-container{
+    justify-content: center;     
+}
+
+    
+
+.flexible-container h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+.flexible-container p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.flex1{
+    background: hsla(187, 33%, 95%, 1);
+    width: 500px;
+    height: 510px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-right: 2%;
+}
+.flex2{
+    background: hsla(0, 100%, 97%, 1);
+    width: 500px;
+    height: 510px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-right: 2%;
+}
+.flex3{
+    background: hsla(44, 100%, 92%, 1);
+    width: 500px;
+    height: 510px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.sec3{
+    margin-top: 10%;
+    background: url(shapes/shape-1.png);
+    background-repeat: no-repeat;    
+    background-size: 300px;
+    background-position: left;
+    background-position-x: 50px;
+}
+
+.write{
+    width: 50%;
+    padding-left: 10%;
+}
+
+.write img{
+    width: 100%;
+}
+
+.write-text{
+    margin-right: 20%;    
+}
+
+.write-text h1{
+    font-size: 50px;
+    color: rgb(44, 41, 41);
+}
+
+.write-text p{
+    font-size: 25px;
+    color: hsla(0, 0%, 35%, 1);
+}
+
+.sec4{
+    background-position: right;
+    margin-top: 10%;
+}
+
+.write2{
+    width: 50%;
+    /* padding-left: 10%; */
+}
+
+.write2 img{
+    width: 80%;
+}
+
+footer{
+    background: rgba(11, 13, 23, 1);
+    width: 100%;
+    height: 30vh;
+}
+
+footer h1{
+   color: #fff;
+   font-family: 'Dancing Script', cursive;
+   text-align: center;
+   padding-top: 3%;
+   font-size: 45px;
+}
+
+footer span{
+    color: rgba(255,74,87,1);
+}
+
+footer h4{
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+}
+
+
+.flexible-container5{
+    display: flex;
+}
+
+.header-text5{
+    width: 50%;    
+    padding-left: 6%;
+}
+
+.header-img-logo{
+    width: 50%;
+    padding-left: 2%;
+}
+
+.header-text5 img{
+    width: 80%;
+}
+
+
+/* header left side design */
+
+.header_social-links{
+    display: inline-block;    
+    position: relative;
+}
+
+.header-text5{
+    margin-top: 10%;
+}
+
+/*Font awesome design */
+.fontAwesome{    
+    font-size: 35px;
+    color: rgb(240, 186, 167);
+    padding: 10px;    
+    transition: 0.1s;
+}
+
+.fontAwesome:hover{
+    color: rgba(255,74,87,1);
+}
+
+.header-text5 h1{
+    
+    font-size: 40px;
+    color: #000;
+} 
+
+.span5{
+    color: rgba(255,74,87,1);
+}
+
+.header-text5 p{    
+    padding-bottom: 15px;
+    color: gray;
+    font-size: 15px;
+}
+
+
+.link-btn5 a{    
+    text-decoration: none;
+    color: #fff;
+    background-image: linear-gradient(rgba(255,74,87,1), rgb(255, 38, 0,1));
+    padding: 10px 40px;
+    border-radius: 5px;
+    transition: letter-spacing 0.5s;
+}
+
+.link-btn5 a:hover{
+    letter-spacing: 3px;
+}
+
+.header-img-logo img{
+    width: 500px;
+    padding-top: 15%;
+    padding-left: 15%;
+}
+
+
